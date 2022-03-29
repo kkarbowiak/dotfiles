@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Krzysiek Karbowiak
+	email = krzysztof.karbowiak@interia.pl
+[pretty]
+	dense = %C(red)%h%C(reset) %C(yellow)%ai%C(reset) %<(22)%C(green)%an%C(reset) %C(cyan)%s%C(reset) %C(auto)%d%C(reset)
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	di = diff
+	dic = diff --cached
+	dih = diff HEAD
+	logd = log --pretty=dense
+	st = status
+	stashki = stash --keep-index
+	stashiu = stash --include-untracked
+	stashku = stash --keep-index --include-untracked
+[credentials]
+	helper = cache --timeout 7200
+[diff]
+	tool = meld
+
