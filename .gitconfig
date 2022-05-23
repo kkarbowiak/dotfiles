@@ -12,6 +12,8 @@
 	dic = diff --cached
 	dih = diff HEAD
 	logd = log --pretty=dense
+	logdra = log --pretty=dense @{upstream}..
+	logdrb = log --pretty=dense ..@{upstream}
 	st = status
 	stashki = stash --keep-index
 	stashiu = stash --include-untracked
