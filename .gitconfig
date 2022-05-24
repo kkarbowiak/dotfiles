@@ -18,7 +18,7 @@
 	stashki = stash --keep-index
 	stashiu = stash --include-untracked
 	stashku = stash --keep-index --include-untracked
-[credentials]
+[credential]
 	helper = cache --timeout 7200
 [diff]
 	tool = meld
