@@ -13,6 +13,8 @@
 	di = diff
 	dic = diff --cached
 	dih = diff HEAD
+        dira=diff @{upstream}..
+        dirb=diff ..@{upstream}
 	fe = fetch
 	fep = fetch --prune
 	logd = log --pretty=dense
