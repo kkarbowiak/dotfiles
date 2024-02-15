@@ -6,15 +6,15 @@
 	dense = %C(red)%h%C(reset) %C(yellow)%ai%C(reset) %<(22)%C(green)%an%C(reset) %C(cyan)%s%C(reset) %C(auto)%d%C(reset)
 [alias]
 	br = branch
-        brv = branch --verbose
-        brvv = branch --verbose --verbose
+	brv = branch --verbose
+	brvv = branch --verbose --verbose
 	ci = commit
 	co = checkout
 	di = diff
 	dic = diff --cached
 	dih = diff HEAD
-        dira=diff @{upstream}..
-        dirb=diff ..@{upstream}
+	dira = diff @{upstream}..
+	dirb = diff ..@{upstream}
 	fe = fetch
 	fep = fetch --prune
 	logd = log --pretty=dense
