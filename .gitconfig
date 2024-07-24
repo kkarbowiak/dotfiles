@@ -6,6 +6,9 @@
 	dense = %C(red)%h%C(reset) %C(yellow)%ai%C(reset) %<(22)%C(green)%an%C(reset) %C(cyan)%s%C(reset) %C(auto)%d%C(reset)
 [alias]
 	br = branch
+	bra = branch --all
+	brav = branch --all --verbose
+	bravv = branch --all --verbose --verbose
 	brr = branch --remote
 	brrv = branch --remote --verbose
 	brv = branch --verbose
