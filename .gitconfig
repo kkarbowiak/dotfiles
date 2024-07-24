@@ -6,6 +6,8 @@
 	dense = %C(red)%h%C(reset) %C(yellow)%ai%C(reset) %<(22)%C(green)%an%C(reset) %C(cyan)%s%C(reset) %C(auto)%d%C(reset)
 [alias]
 	br = branch
+	brr = branch --remote
+	brrv = branch --remote --verbose
 	brv = branch --verbose
 	brvv = branch --verbose --verbose
 	ci = commit
