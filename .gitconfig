@@ -15,6 +15,7 @@
 	brvv = branch --verbose --verbose
 	ci = commit
 	co = checkout
+	cob = checkout -b
 	di = diff
 	dic = diff --cached
 	dih = diff HEAD
@@ -31,6 +32,7 @@
 	stashku = stash --keep-index --include-untracked
 	sw = switch
 	swb = switch -
+	swc = switch --create
 	swd = switch --detach
 [credential]
 	helper = cache --timeout 36000
