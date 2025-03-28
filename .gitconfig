@@ -5,6 +5,7 @@
 [pretty]
 	dense = %C(red)%h%C(reset) %C(yellow)%ai%C(reset) %<(22)%C(green)%an%C(reset) %C(cyan)%s%C(reset) %C(auto)%d%C(reset)
 [alias]
+	adp = add --patch
 	br = branch
 	bra = branch --all
 	brav = branch --all --verbose
@@ -16,6 +17,7 @@
 	ci = commit
 	co = checkout
 	cob = checkout -b
+	cop = checkout --patch
 	di = diff
 	dic = diff --cached
 	dih = diff HEAD
@@ -26,6 +28,7 @@
 	logd = log --pretty=dense
 	logdra = log --pretty=dense @{upstream}..
 	logdrb = log --pretty=dense ..@{upstream}
+	rep = reset --patch
 	st = status
 	stashki = stash --keep-index
 	stashiu = stash --include-untracked
