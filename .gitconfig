@@ -10,7 +10,7 @@
 	bra = branch --all
 	brav = branch --all --verbose
 	bravv = branch --all --verbose --verbose
-	brf = branch --format "%(color:yellow)%(creatordate:iso8601)%(color:reset) %(color:green)%(align:22)%(committername)%(end)%(color:reset) %(color:cyan)%(refname:lstrip=-1)%(color:reset)"
+	brf = branch --format '%(color:yellow)%(creatordate:iso8601)%(color:reset) %(color:green)%(align:22)%(committername)%(end)%(color:reset) %(color:cyan)%(refname:lstrip=-1)%(color:reset)'
 	brr = branch --remote
 	brrv = branch --remote --verbose
 	brv = branch --verbose
