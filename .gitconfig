@@ -44,3 +44,5 @@
 	tool = meld
 [stash]
 	showIncludeUntracked = true
+[core]
+	editor = micro
